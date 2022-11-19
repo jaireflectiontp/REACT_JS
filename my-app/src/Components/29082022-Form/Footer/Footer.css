@@ -1,0 +1,16 @@
+footer{
+    margin: 0 auto;
+    border: 1px solid rgb(206, 206, 206);
+   border-top: none;
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    padding: 20px 15px ;
+}
+span{
+    padding: 0px 5px;
+}
+a{
+    text-decoration: none;
+}
