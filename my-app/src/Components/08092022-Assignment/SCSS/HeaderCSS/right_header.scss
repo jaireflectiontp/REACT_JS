@@ -1,0 +1,105 @@
+button{
+    background-color: none;
+    padding: 7px 15px;
+    margin: 0 5px;
+    border-radius: 8px;
+    background: linear-gradient(white 0 0) padding-box, linear-gradient(to right, #fb3570, #9c20aa) border-box;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.vid_icon{
+  position: absolute;
+  bottom: 0;
+  color: chartreuse;
+  background-color: #fb3570;
+}
+.right_header{
+  position: relative;
+  display: flex;
+}
+.navigation{
+  background: rgba(0, 0, 0, 0.74);
+  position: fixed;
+  top: 83px;
+  right: 82px;
+  z-index: 2;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.uploadContainer{
+  position: fixed;
+  top: 20%;
+  left: 35%;
+ text-align: center;
+  width:500px;
+  //height: 300px;
+  border-radius: 10px;
+  z-index: 9;
+  box-shadow: 0 0 10px 2px grey;
+  background-color: white;
+}
+.uploadOverlay{
+position: fixed;
+top: 0%;
+left: 0%;
+opacity: 0.7;
+background-color: black;
+z-index: 7;
+width: 100%;
+height: 100%;
+}
+.vidInput{
+  padding: 20px 20px;
+  box-sizing: border-box;
+  input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+.uploadContainer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.uploadContainer li{
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.activate{
+border-color: blue !important;
+color: red;
+}
+.uploadInpt{
+  padding: 0 0;
+  opacity: 0;
+  position: absolute;
+  border: 1px solid red;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.uploadInpt input{
+  border: 1px solid blue;
+  /* height: 89%; */
+  padding: 30px 176px;
+  cursor: pointer;
+}
+.uploadBox{
+  position: relative;
+  border: 2px dashed black;
+  padding: 20px 125px;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.UploadBtn{
+  margin: 25px 0;
+}
+

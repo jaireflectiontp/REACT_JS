@@ -1,0 +1,16 @@
+.btn{
+    border: none;
+    border-radius: 7px;
+    background-color: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    &-upload{
+        background: rgb(200,75,155);
+background: linear-gradient(90deg, rgba(200,75,155,1) 0%, rgba(144,52,199,1) 48%, rgba(143,52,200,1) 49%, rgba(69,73,252,1) 91%);
+    }
+    &-edit{
+        background: rgb(200,75,155);
+        background: linear-gradient(90deg, rgba(200,75,155,1) 0%, rgba(144,52,199,1) 48%, rgba(143,52,200,1) 49%, rgba(69,73,252,1) 91%);
+    }
+}

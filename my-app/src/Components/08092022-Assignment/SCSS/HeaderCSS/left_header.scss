@@ -1,0 +1,48 @@
+ 
+.logo{
+    margin: 10px;
+}
+.inpt{
+ border-color: rgb(218 212 212 / 36%);
+    outline: none;
+    width: 400px;
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 20px;
+    padding: 5px 7px;
+}
+.inp{
+    position: relative;
+}
+.search_icon{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    cursor: pointer;
+}
+.left_header{
+    position: relative;
+}
+.dataOption{
+
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 85px;
+    width: 410px;
+    /* height: 103px; */
+    border: 1px solid rgb(69 73 252 / 22%);
+    background: white;
+    border-radius: 5px;
+    li{
+        list-style: none;
+    }
+}
+.activeClass{
+    display: block;
+}
+.deactive{
+    display: none;
+}
+
+

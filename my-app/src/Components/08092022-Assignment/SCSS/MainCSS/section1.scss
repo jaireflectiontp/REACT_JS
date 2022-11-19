@@ -1,0 +1,52 @@
+.banner{
+    width: 100%;
+    margin: 20px 0;
+    height: 300px;
+    position: relative;
+}
+
+.banner_img{
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+}
+.edit_pen{
+    position: absolute;
+    bottom: 23px;
+    right: 20px;
+    color: beige;
+    background: transparent;
+    padding: 8px 8px;
+    background-color: rgb(210 210 210 / 22%);
+   // background: #fffbfb5e;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 1;
+}
+.btn_position{
+    text-align: right;
+}
+.sec_2{
+    position: absolute;
+    bottom: -80px;
+}
+.banner-list img{
+    width: 250px;
+    height: 80px;
+}
+.banner-list{
+    position: fixed;
+    top: 15%;
+    right: 40%;
+    border: 1px solid cornflowerblue;
+    padding: 0px 15px 15px 15px;
+    /* overflow: hidden; */
+    z-index: 1;
+    background-color: rgb(0 0 0 / 61%);
+}
+.select{
+    border: 1px solid transparent;
+}
+.saveBtn{
+    text-align: center;
+}

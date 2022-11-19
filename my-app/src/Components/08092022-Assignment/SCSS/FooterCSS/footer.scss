@@ -1,0 +1,7 @@
+@import '../mixin.scss';
+
+footer{
+    @include max_width;
+    text-align: center;
+    padding:30px 0 5px 0;
+}

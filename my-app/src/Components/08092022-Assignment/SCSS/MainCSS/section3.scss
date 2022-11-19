@@ -1,0 +1,53 @@
+section{
+    margin: 40px 0;
+}
+.videoNav{
+    display: flex;
+}
+.category{
+    border-bottom: 2px solid transparent;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.active{
+    border-color:gray ;
+    font-weight: bold;
+}
+.video-sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.vid{
+    width: 100%;
+   // margin: 25px 11px;
+}
+.vidsiz{
+    width: 415px;
+    height: 235px;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 0 20px;
+}
+.videoList{
+   width: 100%;
+}
+.btn_position{
+    margin-top: 20px;
+}
+.format{
+    text-align: -webkit-center;
+    padding: 15px;
+}
+//@at-root
+.section3{
+    margin: 60px 0;
+}
+.videoList_col{
+    padding: 20px 0px 15px 0;
+}
+.videoContent{
+    padding: 0 20px;
+    text-align: center;
+    display: inline-block;
+}

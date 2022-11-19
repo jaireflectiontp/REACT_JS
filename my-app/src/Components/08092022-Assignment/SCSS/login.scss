@@ -1,0 +1,56 @@
+.login, .signUp{
+    max-width: 550px;
+    width: 100%;
+    background: rgb(251,53,112);
+    background: linear-gradient(90deg, rgb(213 0 63 / 14%) 14%, rgb(231 9 255 / 17%) 58%);
+    margin: 0 auto;
+    padding: 25px 30px;
+    border-radius: 20px;
+}
+.loginControl{
+    padding: 15px 0;
+}
+h3{
+    font-size: 30px;
+}
+.loginInput{
+    max-width: 525px;
+    width: 100%;
+    input{
+        width: 100%;
+    height: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+     background: linear-gradient(white 0 0) padding-box, linear-gradient(to right, #fb3570, #9c20aa) border-box;
+    border: 2px solid transparent;
+    outline: none;
+    }
+}
+.errorMsg{
+    color: red;
+    padding-top: 10px;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
+
+.wrapControl{
+    display: flex;
+    justify-content: space-between;
+    max-width: 525px;
+}
+.updateControl{
+    max-width: 200px !important;
+}
+.sBtn{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: none;
+    background: rgb(200,75,155);
+    background: linear-gradient(90deg, rgba(200,75,155,1) 0%, rgba(144,52,199,1) 48%, rgba(143,52,200,1) 49%, rgba(69,73,252,1) 91%);
+}
+.checkUser{
+    color: blue;
+}
